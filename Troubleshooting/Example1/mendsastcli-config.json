@@ -1,0 +1,59 @@
+{
+    "connection": {
+        "token": "1568a6c8bd335fc677007c8a7ff7e856e0a4356eaa4c4aaf30568eba7f4c57ea",
+        "url": "https://saas.whitesourcesoftware.com/sast",
+        "organizationId": "e21d9e12-1176-4dd8-b0ba-5e4c9a5ba659",
+        "timeoutMin": 10,
+        "insecureSkipVerify": false
+    },
+    "proxy": {
+        "enabled": false,
+        "url": "",
+        "username": "",
+        "password": ""
+    },
+    "cachePath": "",
+    "scans": {
+        "engines": [1],
+        "directory": "",
+        "application": "",
+        "template": "",
+        "submitSnippets": true,
+        "submitLogs": true,
+        "snippetSize": 10,
+        "exclusions": [],
+        "incremental": false,
+        "uploadBaseline": false,
+        "baselineStorage": "",
+        "containerImage": "",
+        "statusInterval": 0,
+        "retries": 0,
+        "threshold": {
+            "high": 1,
+            "medium": 0,
+            "low": 0,
+            "cwe": [],
+            "runtime": 480,
+            "onlyOnNew": false
+        },
+        "timeouts": {
+            "perLanguage": 480,
+            "perFile": 60
+        },
+        "maxFileSize": 1024
+    },
+    "remediation": {
+        "enabled": false
+    },
+    "reports": {
+        "generate": false,
+        "formats": [],
+        "filename": "",
+		"level": "Summary"
+    },
+    "logs": {
+        "storageSizeLimit": 2048
+    },
+    "noColor": false,
+    "noProgress": false
+}
